@@ -3,3 +3,4 @@ function changeCase(){
     console.log(name)
     document.getElementById('uname').value = name.toUpperCase()
 }
+
