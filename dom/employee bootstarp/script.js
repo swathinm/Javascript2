@@ -1,4 +1,4 @@
-let Users=[{"id":1,"name":"Kiley","email":"kkilliam0@i2i.jp","gender":"Male"},
+ let Users=[{"id":1,"name":"Kiley","email":"kkilliam0@i2i.jp","gender":"Male"}, 
 {"id":2,"name":"Sarena","email":"smathivet1@google.pl","gender":"Female"},
 {"id":3,"name":"Jay","email":"jmcknish2@smugmug.com","gender":"Male"},
 {"id":4,"name":"Matteo","email":"mhorley3@phpbb.com","gender":"Bigender"},
@@ -98,6 +98,7 @@ let Users=[{"id":1,"name":"Kiley","email":"kkilliam0@i2i.jp","gender":"Male"},
 {"id":98,"name":"Clerc","email":"csummerley2p@omniture.com","gender":"Male"},
 {"id":99,"name":"Stoddard","email":"sthorneley2q@behance.net","gender":"Female"},
 {"id":100,"name":"Hunt","email":"hlaise2r@house.gov","gender":"Male"}];
+
 function displayUsers(){
     let rows="";
     for(let i=0;i<=50;i++){
@@ -111,4 +112,4 @@ function displayUsers(){
         }
    
     document.getElementById("abc").innerHTML=rows;
-    }
+    } 
