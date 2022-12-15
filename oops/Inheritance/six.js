@@ -20,7 +20,9 @@ class SA extends Account{acc_Id;
 
     
 }
-class CA extends Account{}
+class CA extends Account{
+    
+}
 let c1=new SA(101,"Swathi",45000)
 let c2=new SA(102,"Sweety",45000)
 

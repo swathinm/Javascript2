@@ -1,4 +1,4 @@
-const message=["swathi","is","sweety"];
+const message=["swathi", "is" , "sweety"];
 function joinStrings(accumulator,currentValue){
     return accumulator + currentValue; 
 }
