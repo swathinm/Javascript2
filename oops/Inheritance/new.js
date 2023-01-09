@@ -4,3 +4,4 @@ function joinStrings(accumulator,currentValue){
 }
 let joinedString = message.reduce(joinStrings);
 console.log(joinedString);
+
